@@ -20,7 +20,7 @@ modified datetime
  
 */
 
-define('DSN', 'mysql:host=localhost;dbname=m_dotinstall_google_connect_php_2');
+define('DSN', 'mysql:host=localhost;dbname=m_dotinstall_google_connect_php');
 define('DB_USER', 'matsumura');
 define('DB_PASSWORD', 'matsumura');
 

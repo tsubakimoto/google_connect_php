@@ -19,5 +19,10 @@ if (empty($_SESSION['me'])) {
 </head>
 <body>
 	<h1>ホーム画面</h1>
+	<p>
+		<?php echo h($_SESSION['me']['google_name']); ?>
+		(<?php echo h($_SESSION['me']['google_email']); ?>)
+		のGoogleアカウントでログインしています。
+	</p>
 </body>
 </html>
