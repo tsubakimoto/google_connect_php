@@ -24,5 +24,6 @@ if (empty($_SESSION['me'])) {
 		(<?php echo h($_SESSION['me']['google_email']); ?>)
 		のGoogleアカウントでログインしています。
 	</p>
+	<p><a href="logout.php">[ログアウト]</a></p>
 </body>
 </html>
